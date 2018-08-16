@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	background: black;
+}
+* {
+	box-sizing: border-box;
+}
+div#body {
+	width: 800px;
+	height: 700px;
+	margin: auto;
+	background: black;
+	position: relative;
+	border-bottom: 3px solid red;
+	overflow-x: visible !important;
+	overflow-y: hidden;
+	display: inline-block;
+}
+div#body span.bubble {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	display: inline-block;
+	background: url(../img/putin.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+span.fire {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background: url(../img/fire.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0;
+}
+div#point {
+	font-size: 60px;
+	margin-left: -20px;
+	left: -200px;
+	top: 0;
+	color: white;
+}
+button {
+	display: block;
+	margin: auto;
+	font-size: 18px;
+	background: white;
+	color: black;
+	border: none;
+	padding: 7px 30px;
+	border-radius: 5px;
+}
